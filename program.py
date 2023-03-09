@@ -6,6 +6,10 @@
 # For multiples of 15, output   FizzBuzz
 # End at 32
 
+result = ""
+for myNumber in range(32):
+  result = str(result) + str(myNumber) + "\n"
+
 for number in range(1,32):
     if((number % 3 == 0) & (number % 15 != 0)):
       print("Fizz")
